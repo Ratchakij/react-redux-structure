@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+/* จะโหลดสไตล์ที่ต้องใช้ในการกำหนดค่าเริ่มต้น (base styles) ของ Tailwind CSS ซึ่งประกอบด้วย CSS properties เพื่อกำหนดค่าที่เป็นโครงสร้างฐานของเว็บไซต์ */
+@tailwind base;
+
+/* คำสั่งนี้จะโหลดสไตล์สำหรับ components ของ Tailwind CSS ซึ่งประกอบด้วย styles ที่เกี่ยวข้องกับ elements หรือ components ที่ใช้งานบ่อยๆ เช่น button, input fields, และอื่นๆ */
+@tailwind components;
+
+/* คำสั่งนี้จะโหลด utilities classes ของ Tailwind CSS ซึ่งประกอบด้วย classes ที่ใช้ในการปรับแต่งสไตล์หรือการเรียงลำดับ (layout) ของ elements ได้อย่างรวดเร็ว */
+@tailwind utilities;
